@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+  }
+  
+  header {
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  .logo {
+    font-size: 3rem;
+    color: pink;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+  .logo:hover {
+    transform: scale(1.1);
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  }
+  
+  nav a {
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 500;
+    border-bottom: 3px solid transparent;
+  }
+  
+  nav a:hover,
+  nav a.active {
+    color: pink;
+    border-bottom: 3px solid pink;
+  }
+  
+  .menu-icon {
+    display: none;
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 995px) {
+    .menu-icon {
+      display: block;
+    }
+  
+    nav {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      width: 40%;
+      background-color: lightcoral;
+      border-left: 3px solid pink;
+      border-bottom: 3px solid pink;
+      border-bottom-left-radius: 2rem;
+      border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      flex-direction: column;
+      display: none;
+    }
+  
+    nav.show {
+      display: flex;
+    }
+  
+    nav a {
+      display: block;
+      font-size: 2rem;
+      margin: 2rem 0;
+    }
+  
+    nav a:hover,
+    nav a.active {
+      padding: 1rem;
+      border-radius: 0.5rem;
+      border-bottom: 0.5rem solid pink;
+    }
+  }
+  
+  section {
+    min-height: 100vh;
+    padding: 5rem 9%;
+  }
+  
+  .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: black;
+    flex-wrap: wrap;
+  }
+  
+  .home-img img {
+    max-width: 100%;
+    width: 400px;
+    border-radius: 2rem;
+  }
+  
+  .home-content h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  
