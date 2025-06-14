@@ -1,2 +1,6 @@
-My Portfolio
-<img width="932" alt="image" src="https://github.com/user-attachments/assets/ed528fb4-ff7b-4cd0-a400-aeace9f2fa35" />
+Hello all, Welcome to my Portfolio!
+
+
+https://github.com/user-attachments/assets/3e69cbf7-b0ab-47b4-8696-5e742924b758
+
+
