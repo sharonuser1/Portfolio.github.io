@@ -3,8 +3,9 @@ Hello all, Welcome to my Portfolio!
 
 
 Here is the landing page which is a preview of my Portfolio.
-Please copy the link below to preview my portfolio:
 
-https://github.com/user-attachments/assets/db400f63-9c31-4d5e-aed1-b23acf9918a4
 
+
+
+https://github.com/user-attachments/assets/427ddd7b-77ce-4354-8119-784d812d9c3d
 
